@@ -1,0 +1,5 @@
+#14
+docker network create nw1
+docker run -d -p 8080:80 --name lair wordpress
+docker network connect --link spawning-pool:db nw1 lair
+# http://192.168.99.100:8080:80 

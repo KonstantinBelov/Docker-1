@@ -1,0 +1,6 @@
+docker network create -d overlay overmind
+
+# Create a network:
+# docker network create [OPTIONS] NETWORK
+# -d : Driver to manage the Network
+# docker network ls : show networks

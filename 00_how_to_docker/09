@@ -1,0 +1,6 @@
+# docker pull debian
+# docker run -it --rm debian # --interactive: Keep STDIN open even if not attached; --tty: Allocate a pseudo-TTY; --rm: Automatically remove the container when it exits
+apt-get update -y # to re-synchronize the package index files from their sources; -y Automatic yes to prompts.
+apt-get upgrade -y # to install the newest versions of all packages currently installed on the system
+apt-get install gcc -y
+apt-get install git -y

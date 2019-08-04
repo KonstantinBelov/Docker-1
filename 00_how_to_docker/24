@@ -1,0 +1,5 @@
+docker service create -d --network overmind --name orbital-command -e RABBITMQ_DEFAULT_USER=admin -e RABBITMQ_DEFAULT_PASS=admin rabbitmq
+
+# -d, --detach : Exit immediately instead of waiting for the service to converge
+# --network : attaches the service to the specified network
+# Rabbitmq is an "open source multi-protocol messaging broker"
